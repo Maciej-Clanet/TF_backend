@@ -1,0 +1,50 @@
+{
+    "pushups" : {
+        "name" : "pushups",
+        "description" : "you push the planet away from you",
+        "type" : "reps",
+        "tags" : ["chest", "calistelics", "beginner"]
+    },
+    "squats" : {
+        "name" : "squats",
+        "description" : "don't skip leg day",
+        "type" : "reps",
+        "tags" : ["legs", "calistelics", "beginner"]
+    },
+    "dips" : {
+        "name" : "dips",
+        "description" : "up and down",
+        "type" : "reps",
+        "tags" : ["triceps", "abs", "calistelics", "beginner"]
+    },
+    "rows" : {
+        "name" : "rows",
+        "description" : "row row row the boat",
+        "type" : "reps",
+        "tags" : ["upper back", "calistelics", "beginner"]
+    },
+    "pullups" : {
+        "name" : "pullups",
+        "description" : "chin over the bar bro",
+        "type" : "reps",
+        "tags" : ["upper back", "calistelics", "beginner"]
+    },
+    "plank" : {
+        "name" : "plank",
+        "description" : "not the tik tok one",
+        "type" : "time",
+        "tags" : ["abs", "calistelics", "beginner"]
+    },
+    "leg raises" : {
+        "name" : "leg raises",
+        "description" : "up into the sky",
+        "type" : "reps",
+        "tags" : ["abs", "calistelics", "beginner"]
+    },
+    "run" : {
+        "name" : "run",
+        "description" : "imagine there is a bear chasing you",
+        "type" : "time",
+        "tags" : ["legs", "cardio", "beginner"]
+    }
+}

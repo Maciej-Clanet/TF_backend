@@ -1,0 +1,15 @@
+{
+    "test@gmail.com": {
+        "id": "004e3878-55b7-11ee-8742-d8bbc1d8446c",
+        "email": "test@gmail.com",
+        "display_name": "krit",
+        "password": "1234",
+        "exercise_plans": [
+            "Beginner Bodyweight Routine2",
+            "Beginner Bodyweight Routine",
+            "Beginner Bodyweight Routine long ass name lol"
+        ],
+        "diet_plans": [],
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc"
+    }
+}
