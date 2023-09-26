@@ -31,3 +31,4 @@ app.include_router(exercises.router, prefix="/workouts", tags=["Workouts"])
 async def root():
     return {"message" : "Hello World"}
 
+#random comment test
