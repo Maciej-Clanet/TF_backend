@@ -1,0 +1,17 @@
+{
+    "nutrition is key" : {
+        "path": "./articles/nutrition/nutrition is key.md",
+        "heading": "NUTRITION IS KEY",
+        "intro": "Tips and Tricks from the Hummus King"
+    },
+    "running for longevity" : {
+        "path": "./articles/running/running for longevity.md",
+        "heading": "RUNNING FOR LONGEVITY",
+        "intro": "Sage advice from boomers still in the running"
+    },
+    "grind" : {
+        "path": "./articles/grind/grind.md",
+        "heading": "GRIND",
+        "intro": "How to eliminate the need for sleep while on the grind"
+    }
+}

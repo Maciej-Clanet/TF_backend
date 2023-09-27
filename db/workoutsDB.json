@@ -59,9 +59,141 @@
         ]
     },
     "Beginner Bodyweight Routine2": {
-        "authorname": "titanic fitness",
         "author": "titanic fitness",
+        "authorname": "titanic fitness",
         "name": "Beginner Bodyweight Routine2",
+        "description": "Basic set of bodyweight exercises for beginners",
+        "tags": [
+            "beginer",
+            "calistelics",
+            "full body"
+        ],
+        "exercises": [
+            {
+                "exercise": "squats",
+                "reps": [
+                    8,
+                    8,
+                    8
+                ]
+            },
+            {
+                "exercise": "pullups",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "pushups",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "leg raises",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "rows",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "plank",
+                "reps": [
+                    60
+                ]
+            },
+            {
+                "exercise": "plank",
+                "reps": [
+                    4,
+                    5,
+                    6
+                ]
+            }
+        ]
+    },
+    "Beginner Bodyweight Routine 3 test": {
+        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NWIzZTk0Yi01ZDFjLTExZWUtODdiNS1lY2IxZDc0MDZjOWQifQ.1nU3qLPmIDwqN3OwDGdDwapkUu7Qv9MJTTkN5DEps8I",
+        "authorname": "testboi",
+        "name": "Beginner Bodyweight Routine 3 test",
+        "description": "Basic set of bodyweight exercises for beginners lol",
+        "tags": [
+            "beginer",
+            "calistelics",
+            "full body"
+        ],
+        "exercises": [
+            {
+                "exercise": "squats",
+                "reps": [
+                    8,
+                    8,
+                    8
+                ]
+            },
+            {
+                "exercise": "pullups",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "pushups",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "leg raises",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "rows",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "plank",
+                "reps": [
+                    60
+                ]
+            },
+            {
+                "exercise": "plank",
+                "reps": [
+                    60
+                ]
+            }
+        ]
+    },
+    "Beginner Bodyweight Routine modifying premium": {
+        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NWIzZTk0Yi01ZDFjLTExZWUtODdiNS1lY2IxZDc0MDZjOWQifQ.1nU3qLPmIDwqN3OwDGdDwapkUu7Qv9MJTTkN5DEps8I",
+        "authorname": "testboi",
+        "name": "Beginner Bodyweight Routine modifying premium",
         "description": "Basic set of bodyweight exercises for beginners",
         "tags": [
             "beginer",
@@ -117,131 +249,61 @@
             }
         ]
     },
-    "dsadsa": {
-        "authorname": "krit",
+    "Krit's bodyweight routine": {
         "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
-        "name": "dsadsa",
-        "description": "sadsa",
+        "authorname": "krit",
+        "name": "Krit's bodyweight routine",
+        "description": "EZ",
         "tags": [
-            "sadsa",
-            "dfss"
+            "beginer",
+            "calistelics",
+            "full body"
         ],
         "exercises": [
             {
                 "exercise": "squats",
                 "reps": [
-                    6,
-                    7,
+                    8,
+                    8,
                     8
-                ]
-            }
-        ]
-    },
-    "test": {
-        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
-        "authorname": "krit",
-        "name": "test",
-        "description": "dsadsa",
-        "tags": [
-            "dfadfda",
-            " dsadsa"
-        ],
-        "exercises": [
-            {
-                "exercise": "pushups",
-                "reps": [
-                    6,
-                    8
-                ]
-            }
-        ]
-    },
-    "groyp": {
-        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
-        "authorname": "krit",
-        "name": "groyp",
-        "description": "groypses",
-        "tags": [
-            "sigma",
-            " chad"
-        ],
-        "exercises": [
-            {
-                "exercise": "run",
-                "reps": [
-                    9999,
-                    9999,
-                    9999,
-                    999
                 ]
             },
             {
-                "exercise": "run",
+                "exercise": "pullups",
                 "reps": [
-                    9999,
-                    999,
-                    999
+                    8,
+                    5,
+                    3
                 ]
             },
             {
-                "exercise": "run",
-                "reps": [
-                    99999,
-                    99999,
-                    99999
-                ]
-            }
-        ]
-    },
-    "test3": {
-        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
-        "authorname": "krit",
-        "name": "test3",
-        "description": "dsadsa",
-        "tags": [
-            "sadsa"
-        ],
-        "exercises": [
-            {
                 "exercise": "pushups",
                 "reps": [
+                    8,
                     5,
-                    6
-                ]
-            }
-        ]
-    },
-    "Beginner Bodyweight Routine long ass name lol": {
-        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
-        "authorname": "krit",
-        "name": "Beginner Bodyweight Routine long ass name lol",
-        "description": "some long ass description sdsadk asaskd nsalkdn salkd klas nklasndkl ask dlknasdn lkaskld nasld nlkaskld nlsaknld as",
-        "tags": [
-            "dsad asd",
-            " dsad s",
-            "as adas dsa",
-            " dsa",
-            " as",
-            " fsa",
-            "f ",
-            "saf saf",
-            " sa "
-        ],
-        "exercises": [
-            {
-                "exercise": "pushups",
-                "reps": [
-                    5,
-                    5,
-                    5
+                    3
                 ]
             },
             {
                 "exercise": "leg raises",
                 "reps": [
-                    7,
-                    7,
-                    7
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "rows",
+                "reps": [
+                    8,
+                    5,
+                    3
+                ]
+            },
+            {
+                "exercise": "plank",
+                "reps": [
+                    60
                 ]
             }
         ]

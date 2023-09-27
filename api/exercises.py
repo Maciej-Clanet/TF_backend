@@ -61,14 +61,24 @@ async def getWorkout(workout_name):
 class Test(BaseModel):
     test : str
 
-@router.post("/addworkout",  response_model=WorkoutList)
+# @router.post("/addworkout",  response_model=WorkoutList)
+@router.post("/addworkout")
 async def addWorkout(workout: Workout):
     
     workouts = getWorkoutsDB()
+    
+    if(workout.name in workouts):
+        if(workouts[workout.name]["author"] == "titanic fitness"):
+            raise HTTPException(400, detail="Can't overwrite premium workout, chose different name")
+        elif(workout.author != workouts[workout.name]["author"]):
+            raise HTTPException(400, detail="Can't overwrite workout made by another user, chose different name")      
+    
     workouts[workout.name] = workout.dict()
     saveWorkoutsDB(workouts)
 
-    return {"workouts":workouts}
+
+
+    return True
 
     saveWorkoutsDB(workouts)
     

@@ -5,11 +5,24 @@
         "display_name": "krit",
         "password": "1234",
         "exercise_plans": [
-            "Beginner Bodyweight Routine2",
             "Beginner Bodyweight Routine",
-            "Beginner Bodyweight Routine long ass name lol"
+            "Beginner Bodyweight Routine modifying premium"
         ],
         "diet_plans": [],
         "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc"
+    },
+    "test2@gmail.com": {
+        "id": "85b3e94b-5d1c-11ee-87b5-ecb1d7406c9d",
+        "email": "test2@gmail.com",
+        "display_name": "testboi",
+        "password": "1234",
+        "exercise_plans": [
+            "Beginner Bodyweight Routine2",
+            "Beginner Bodyweight Routine",
+            "Beginner Bodyweight Routine 3 test",
+            "Beginner Bodyweight Routine modifying premium"
+        ],
+        "diet_plans": [],
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NWIzZTk0Yi01ZDFjLTExZWUtODdiNS1lY2IxZDc0MDZjOWQifQ.1nU3qLPmIDwqN3OwDGdDwapkUu7Qv9MJTTkN5DEps8I"
     }
 }

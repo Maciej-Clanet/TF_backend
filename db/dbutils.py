@@ -20,3 +20,7 @@ def saveWorkoutsDB(newWorkouts):
     print(newWorkouts)
     with open("db/workoutsDB.json", "w+") as file:
         file.write(json.dumps(newWorkouts, indent=4))
+
+def getArticles():
+    with open("db/articlesDB.json", "r+") as file:
+        return json.load(file)
