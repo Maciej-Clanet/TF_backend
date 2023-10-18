@@ -7,20 +7,23 @@ router = APIRouter()
 
 ##Pydantic models for request and response objects##
 
+#singular exercise
 class Exercise(BaseModel):
     name: str
     description: str
     type: str
     tags: List[str]
 
+#define list of exercises as a a dictionary containing the exercise object as a value
 class ExercisesList(BaseModel):
     exercises: Dict[str, Exercise]
 
-
+#workout plans are build of those, each exercise in a workout has it's name, and a list of numbers for repetitions in each set
 class WorkoutExerciseEntry(BaseModel):
     exercise : str
     reps : List[int]
 
+#the actual workout
 class Workout(BaseModel):
     author: str
     authorname :str
@@ -29,26 +32,29 @@ class Workout(BaseModel):
     tags : List[str]
     exercises : List[WorkoutExerciseEntry]
 
-
+#all workouts
 class WorkoutList(BaseModel):
     workouts : Dict[str, Workout]
 
+#list of workout names the user has added
 class UserWorkoutsList(BaseModel):
     workouts : List[str]
 
 ##ROUTES##
 
-
+#get a list of all exercises, needed for building a new workout and to display exercise details in existing workouts
 @router.get("/exercises", response_model=ExercisesList)
 async def getExerciseList():
     exercises = getExercisesDB()
     return {"exercises": exercises}
 
+#get all workouts, needed for the workout selection page
 @router.get("/workouts", response_model=WorkoutList)
 async def getWorkoutList():
     workouts = getWorkoutsDB()
     return {"workouts": workouts}
 
+#get defails from a specific workout
 @router.get("/workout/{workout_name}", response_model=Workout)
 async def getWorkout(workout_name):
     workouts = getWorkoutsDB()
@@ -58,15 +64,13 @@ async def getWorkout(workout_name):
     
     return workouts[workout_name]
 
-class Test(BaseModel):
-    test : str
 
-# @router.post("/addworkout",  response_model=WorkoutList)
+#create a new workout, it's expecting all the workout information defined in "Workout"
 @router.post("/addworkout")
 async def addWorkout(workout: Workout):
     
     workouts = getWorkoutsDB()
-    
+    #some validation, if with the name exist we don't want to allow the user to overwrite one of the premium workouts, or a workout created by a different user
     if(workout.name in workouts):
         if(workouts[workout.name]["author"] == "titanic fitness"):
             raise HTTPException(400, detail="Can't overwrite premium workout, chose different name")
@@ -76,21 +80,12 @@ async def addWorkout(workout: Workout):
     workouts[workout.name] = workout.dict()
     saveWorkoutsDB(workouts)
 
-
-
-    return True
-
-    saveWorkoutsDB(workouts)
-    
-    return WorkoutList(workouts = workouts)
-    saveWorkoutsDB(workouts)
-    # return workouts
-    # return {"test" : "dsadsa"}
-    return True
+    return
 
 class Token(BaseModel):
     token: str
 
+#get the list of workouts the specific user has added to their account
 @router.post("/getuserworkouts", response_model=UserWorkoutsList)
 async def getUserWorkouts(token: Token):
     users = getUsersDB()

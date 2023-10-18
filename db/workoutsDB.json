@@ -307,5 +307,54 @@
                 ]
             }
         ]
+    },
+    "Krits easy bodyweight": {
+        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
+        "authorname": "krit",
+        "name": "Krits easy bodyweight",
+        "description": "Basic set of bodyweight exercises for beginners",
+        "tags": [
+            "beginer",
+            "calistelics",
+            "full body"
+        ],
+        "exercises": [
+            {
+                "exercise": "squats",
+                "reps": [
+                    8,
+                    8,
+                    8
+                ]
+            },
+            {
+                "exercise": "rows",
+                "reps": [
+                    10,
+                    10,
+                    10
+                ]
+            }
+        ]
+    },
+    "test1": {
+        "author": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc",
+        "authorname": "krit",
+        "name": "test1",
+        "description": "safsa",
+        "tags": [
+            "sasaf",
+            " fsafa"
+        ],
+        "exercises": [
+            {
+                "exercise": "squats",
+                "reps": [
+                    5,
+                    5,
+                    5
+                ]
+            }
+        ]
     }
 }

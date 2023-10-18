@@ -5,11 +5,14 @@ from typing import List, Dict
 
 router = APIRouter()
 
+#they will not get this far feel free to ignore
+
 class Article(BaseModel):
     id: str
     heading: str
     intro: str
     content: str
+
 
 @router.get("/article/{article_id}", response_model=Article)
 def get_article(article_id):

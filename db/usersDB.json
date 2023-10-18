@@ -5,8 +5,8 @@
         "display_name": "krit",
         "password": "1234",
         "exercise_plans": [
-            "Beginner Bodyweight Routine",
-            "Beginner Bodyweight Routine modifying premium"
+            "Beginner Bodyweight Routine2",
+            "test1"
         ],
         "diet_plans": [],
         "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIwMDRlMzg3OC01NWI3LTExZWUtODc0Mi1kOGJiYzFkODQ0NmMifQ.uZL2WvraBC7LU4k2A4lRytggCJCyVfnt281UTeGN7Zc"
